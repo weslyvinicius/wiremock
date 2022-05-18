@@ -1,0 +1,11 @@
+
+feign:
+  client:
+    hosts:
+      bookApi: http://localhost:8081
+      authorApi: http://localhost:8082
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: FULL
